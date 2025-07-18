@@ -14,8 +14,8 @@
 }
 
 admin.lab.tp.it:80 {
-   handle_path /acme5/demo3/* {
-        import proxy_config acme5/demo3:8080
+   	handle_path /psm/* {
+        import proxy_config 192.168.144.44:58085
     }
 
 	handle_path /* {
