@@ -1,0 +1,4 @@
+NGINX_SERVER_NAME=admin.lab.tp.it
+
+BIND_ADDRESS=0.0.0.0
+PORT=50005

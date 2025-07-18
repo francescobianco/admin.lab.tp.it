@@ -1,0 +1,9 @@
+
+services:
+  proxy:
+    image: caddy:2.9.1-alpine
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./web:/web
+    ports:
+      - '50005:80'
